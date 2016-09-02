@@ -1,5 +1,8 @@
 {
 .appVersion = "919";
+DisplayStrings = (
+/foursuperior/fraction/divisionslash
+);
 copyright = "Copyright (c) 2011 by Jovanny Lemonad. All rights reserved.";
 customParameters = (
 {
@@ -358,7 +361,7 @@ dieresis.alt2
 );
 }
 );
-date = "2016-08-26 10:26:37 +0000";
+date = "2016-08-27 10:26:37 +0000";
 designer = "Jovanny Lemonad";
 designerURL = "http://www.jovanny.ru/";
 familyName = Philosopher;
@@ -30593,6 +30596,110 @@ rightMetricsKey = ae;
 unicode = 04D5;
 },
 {
+glyphname = foursuperior;
+lastChange = "2016-09-02 15:15:43 +0000";
+layers = (
+{
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"234 660 LINE",
+"187 660 LINE",
+"30 453 LINE",
+"30 434 LINE",
+"182 434 LINE",
+"182 356 LINE",
+"234 356 LINE",
+"234 434 LINE",
+"275 434 LINE",
+"275 456 LINE",
+"234 456 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"64 456 LINE",
+"182 611 LINE",
+"182 456 LINE"
+);
+}
+);
+width = 325;
+},
+{
+layerId = "C3EC177B-A859-46F4-B872-3D98CC06F87A";
+paths = (
+{
+closed = 1;
+nodes = (
+"247 660 LINE",
+"180 660 LINE",
+"30 453 LINE",
+"30 429 LINE",
+"175 429 LINE",
+"175 356 LINE",
+"247 356 LINE",
+"247 429 LINE",
+"281 429 LINE",
+"281 456 LINE",
+"247 456 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"69 456 LINE",
+"175 602 LINE",
+"175 456 LINE"
+);
+}
+);
+width = 331;
+}
+);
+unicode = 2074;
+},
+{
+glyphname = fraction;
+lastChange = "2016-09-02 15:14:40 +0000";
+layers = (
+{
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"15 0 LINE",
+"470 660 LINE",
+"405 660 LINE",
+"-50 0 LINE"
+);
+}
+);
+width = 420;
+},
+{
+layerId = "C3EC177B-A859-46F4-B872-3D98CC06F87A";
+paths = (
+{
+closed = 1;
+nodes = (
+"45 0 LINE",
+"500 660 LINE",
+"405 660 LINE",
+"-50 0 LINE"
+);
+}
+);
+width = 450;
+}
+);
+unicode = 2044;
+},
+{
 glyphname = softhyphen;
 lastChange = "2016-08-26 10:26:21 +0000";
 layers = (
@@ -31440,6 +31547,32 @@ width = 575;
 leftMetricsKey = T;
 rightMetricsKey = T;
 unicode = 20AE;
+},
+{
+glyphname = divisionslash;
+lastChange = "2016-09-02 15:14:53 +0000";
+layers = (
+{
+components = (
+{
+name = slash;
+}
+);
+layerId = UUID0;
+width = 440;
+},
+{
+components = (
+{
+name = slash;
+}
+);
+layerId = "C3EC177B-A859-46F4-B872-3D98CC06F87A";
+width = 475;
+}
+);
+rightMetricsKey = slash;
+unicode = 2215;
 },
 {
 glyphname = micro;
@@ -32866,6 +32999,40 @@ width = 255;
 );
 instances = (
 {
+customParameters = (
+{
+name = typoAscender;
+value = 864;
+},
+{
+name = typoDescender;
+value = -330;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 864;
+},
+{
+name = winDescent;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 864;
+},
+{
+name = hheaDescender;
+value = -330;
+}
+);
 interpolationWeight = 0;
 instanceInterpolations = {
 UUID0 = 1;
@@ -32873,6 +33040,40 @@ UUID0 = 1;
 name = Regular;
 },
 {
+customParameters = (
+{
+name = typoAscender;
+value = 864;
+},
+{
+name = typoDescender;
+value = -330;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 864;
+},
+{
+name = winDescent;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 864;
+},
+{
+name = hheaDescender;
+value = -330;
+}
+);
 instanceInterpolations = {
 "C3EC177B-A859-46F4-B872-3D98CC06F87A" = 1;
 };

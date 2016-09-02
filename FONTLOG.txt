@@ -29,6 +29,8 @@ ChangeLog
 29 August 2016 (Font Raisins Team) Philosopher v. 2.000
 — Expanded glyph set to GF Cyrillic Plus
 — Ported source files to Glyphs format
+— Fixed vertical metrics
+— Added glyphs foursuperior, uni2215, uni2044 for complete Google Latin support
 
 5 June 2011 (Jovanny Lemonad) Philosopher v. 1.000
 — Initial release

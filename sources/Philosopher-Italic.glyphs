@@ -1,5 +1,8 @@
 {
 .appVersion = "919";
+DisplayStrings = (
+"\U00BC/foursuperior/fraction/divisionslash"
+);
 copyright = "Copyright (c) 2011 by Jovanny Lemonad. All rights reserved.";
 customParameters = (
 {
@@ -358,7 +361,7 @@ circumflex.alt1
 );
 }
 );
-date = "2011-07-26 04:17:44 +0000";
+date = "2016-09-02 15:08:55 +0000";
 designer = "Jovanny Lemonad";
 designerURL = "http://www.jovanny.ru/";
 familyName = Philosopher;
@@ -385,6 +388,40 @@ alignmentZones = (
 );
 ascender = 864;
 capHeight = 660;
+customParameters = (
+{
+name = typoAscender;
+value = 864;
+},
+{
+name = typoDescender;
+value = -330;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 864;
+},
+{
+name = winDescent;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 864;
+},
+{
+name = hheaDescender;
+value = -330;
+}
+);
 descender = -220;
 id = UUID0;
 italicAngle = 10;
@@ -405,6 +442,40 @@ alignmentZones = (
 );
 ascender = 864;
 capHeight = 660;
+customParameters = (
+{
+name = typoAscender;
+value = 864;
+},
+{
+name = typoDescender;
+value = -330;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 864;
+},
+{
+name = winDescent;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 864;
+},
+{
+name = hheaDescender;
+value = -330;
+}
+);
 descender = -220;
 id = "F7C9FF73-DC1F-4AC6-B1F4-3E0815F912B2";
 italicAngle = 10;
@@ -30411,7 +30482,7 @@ unicode = 04AF;
 {
 color = 4;
 glyphname = "ustraitstroke-cy";
-lastChange = "2016-08-29 20:22:57 +0000";
+lastChange = "2016-09-02 15:13:19 +0000";
 layers = (
 {
 components = (
@@ -30420,11 +30491,11 @@ name = "ustrait-cy";
 },
 {
 name = strokeshortcomb;
-transform = "{1, 0, 0, 1, 24, -245}";
+transform = "{1, 0, 0, 1, 9, -245}";
 }
 );
 layerId = UUID0;
-width = 499;
+width = 484;
 },
 {
 components = (
@@ -31691,6 +31762,110 @@ rightMetricsKey = ae;
 unicode = 04D5;
 },
 {
+glyphname = foursuperior;
+lastChange = "2016-09-02 15:16:27 +0000";
+layers = (
+{
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"309 660 LINE",
+"262 660 LINE",
+"69 453 LINE",
+"65 434 LINE",
+"217 434 LINE",
+"204 356 LINE",
+"256 356 LINE",
+"269 434 LINE",
+"310 434 LINE",
+"314 456 LINE",
+"273 456 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"103 456 LINE",
+"248 611 LINE",
+"221 456 LINE"
+);
+}
+);
+width = 325;
+},
+{
+layerId = "F7C9FF73-DC1F-4AC6-B1F4-3E0815F912B2";
+paths = (
+{
+closed = 1;
+nodes = (
+"289 660 LINE",
+"222 660 LINE",
+"36 453 LINE",
+"31 429 LINE",
+"176 429 LINE",
+"164 356 LINE",
+"236 356 LINE",
+"248 429 LINE",
+"282 429 LINE",
+"287 456 LINE",
+"253 456 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"75 456 LINE",
+"207 602 LINE",
+"181 456 LINE"
+);
+}
+);
+width = 332;
+}
+);
+unicode = 2074;
+},
+{
+glyphname = fraction;
+lastChange = "2016-09-02 15:16:46 +0000";
+layers = (
+{
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"-26 0 LINE",
+"545 660 LINE",
+"480 660 LINE",
+"-91 0 LINE"
+);
+}
+);
+width = 420;
+},
+{
+layerId = "F7C9FF73-DC1F-4AC6-B1F4-3E0815F912B2";
+paths = (
+{
+closed = 1;
+nodes = (
+"4 0 LINE",
+"575 660 LINE",
+"480 660 LINE",
+"-91 0 LINE"
+);
+}
+);
+width = 450;
+}
+);
+unicode = 2044;
+},
+{
 glyphname = softhyphen;
 lastChange = "2016-08-26 10:25:23 +0000";
 layers = (
@@ -32134,6 +32309,32 @@ width = 553;
 leftMetricsKey = S;
 rightMetricsKey = S;
 unicode = 20B4;
+},
+{
+glyphname = divisionslash;
+lastChange = "2016-09-02 15:16:55 +0000";
+layers = (
+{
+components = (
+{
+name = slash;
+}
+);
+layerId = UUID0;
+width = 445;
+},
+{
+components = (
+{
+name = slash;
+}
+);
+layerId = "F7C9FF73-DC1F-4AC6-B1F4-3E0815F912B2";
+width = 480;
+}
+);
+rightMetricsKey = slash;
+unicode = 2215;
 },
 {
 glyphname = micro;
@@ -33602,7 +33803,8 @@ interpolationWeight = 0;
 instanceInterpolations = {
 UUID0 = 1;
 };
-name = "Regular Italic";
+isItalic = 1;
+name = Italic;
 },
 {
 instanceInterpolations = {
@@ -38513,6 +38715,6 @@ keyboardIncrement = 0;
 manufacturer = "Jovanny Lemonad";
 manufacturerURL = "http://www.jovanny.ru/";
 unitsPerEm = 1000;
-versionMajor = 1;
+versionMajor = 2;
 versionMinor = 0;
 }
