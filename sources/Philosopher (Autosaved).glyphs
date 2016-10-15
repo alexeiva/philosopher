@@ -1,8 +1,5 @@
 {
 .appVersion = "926";
-DisplayStrings = (
-"c\U00F9ng /dcroat/ocircumflextilde  Ti/ecircumflexacute n s/itilde  "
-);
 classes = (
 {
 automatic = 1;
@@ -144,19 +141,19 @@ capHeight = 660;
 customParameters = (
 {
 name = typoAscender;
-value = 996;
+value = 900;
 },
 {
 name = hheaAscender;
-value = 996;
+value = 900;
 },
 {
 name = typoDescender;
-value = -330;
+value = -220;
 },
 {
 name = hheaDescender;
-value = -330;
+value = -220;
 },
 {
 name = winDescent;
@@ -192,24 +189,20 @@ ascender = 864;
 capHeight = 660;
 customParameters = (
 {
-name = winAscent;
-value = 1020;
-},
-{
 name = typoAscender;
-value = 996;
+value = 900;
 },
 {
 name = hheaAscender;
-value = 996;
+value = 900;
 },
 {
 name = typoDescender;
-value = -330;
+value = -220;
 },
 {
 name = hheaDescender;
-value = -330;
+value = -220;
 },
 {
 name = winDescent;
@@ -222,6 +215,10 @@ value = 0;
 {
 name = typoLineGap;
 value = 0;
+},
+{
+name = winAscent;
+value = 1020;
 }
 );
 descender = -220;
@@ -7849,7 +7846,6 @@ width = 552;
 }
 );
 unicode = 0111;
-changeCount = 5;
 },
 {
 glyphname = e;

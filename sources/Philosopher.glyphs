@@ -141,19 +141,19 @@ capHeight = 660;
 customParameters = (
 {
 name = typoAscender;
-value = 996;
+value = 964;
 },
 {
 name = hheaAscender;
-value = 996;
+value = 964;
 },
 {
 name = typoDescender;
-value = -330;
+value = -220;
 },
 {
 name = hheaDescender;
-value = -330;
+value = -220;
 },
 {
 name = winDescent;
@@ -189,24 +189,20 @@ ascender = 864;
 capHeight = 660;
 customParameters = (
 {
-name = winAscent;
-value = 1020;
-},
-{
 name = typoAscender;
-value = 996;
+value = 964;
 },
 {
 name = hheaAscender;
-value = 996;
+value = 964;
 },
 {
 name = typoDescender;
-value = -330;
+value = -220;
 },
 {
 name = hheaDescender;
-value = -330;
+value = -220;
 },
 {
 name = winDescent;
@@ -219,6 +215,10 @@ value = 0;
 {
 name = typoLineGap;
 value = 0;
+},
+{
+name = winAscent;
+value = 1020;
 }
 );
 descender = -220;
@@ -7829,7 +7829,7 @@ transform = "{1, 0, 0, 1, 113, 291}";
 }
 );
 layerId = UUID0;
-width = 600;
+width = 523;
 },
 {
 components = (
@@ -7842,7 +7842,7 @@ transform = "{1, 0, 0, 1, 123, 296}";
 }
 );
 layerId = "C3EC177B-A859-46F4-B872-3D98CC06F87A";
-width = 600;
+width = 552;
 }
 );
 unicode = 0111;
