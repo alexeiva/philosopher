@@ -20,8 +20,10 @@ ranges: Latin-1, GF Cyrillic Plus
 
 To contribute to the project contact Jovanny Lemonad at lemonad@gmail.com
 
-There are two .vfb Source files:
+There are two source files:
+
 1. sources/Philosopher.glyphs (Roman styles)
+
 2. sources/Philosopher-italic.glyphs (Italic styles)
 
 ChangeLog
@@ -31,6 +33,7 @@ ChangeLog
 — Ported source files to Glyphs format
 — Fixed vertical metrics
 — Added glyphs foursuperior, uni2215, uni2044 for complete Google Latin support
+— Added Vietnamese support (by Nhung Nguyen)
 
 5 June 2011 (Jovanny Lemonad) Philosopher v. 1.000
 — Initial release
@@ -45,3 +48,7 @@ D: Original Designer
 
 N: Font Raisins Team
 D: Expansion to GF Cyrillic Plus
+
+N: Nhung Nguyen
+E: vns.wonderland@gmail.com
+D: Adding Vietnamese support 
