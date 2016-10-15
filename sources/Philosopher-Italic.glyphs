@@ -1,5 +1,8 @@
 {
 .appVersion = "926";
+DisplayStrings = (
+"c\U00F9ng /dcroat/ocircumflextilde  Ti/ecircumflexacute n s/itilde  "
+);
 classes = (
 {
 automatic = 1;
@@ -8322,7 +8325,7 @@ transform = "{1, 0, 0, 1, 210, 302}";
 }
 );
 layerId = UUID0;
-width = 600;
+width = 527;
 },
 {
 components = (
@@ -8335,7 +8338,7 @@ transform = "{1, 0, 0, 1, 219, 310}";
 }
 );
 layerId = "F7C9FF73-DC1F-4AC6-B1F4-3E0815F912B2";
-width = 600;
+width = 543;
 }
 );
 unicode = 0111;
@@ -8559,7 +8562,7 @@ name = e;
 },
 {
 name = circumflexcomb_acutecomb;
-transform = "{1, 0, 0, 1, 52, 0}";
+transform = "{1, 0, 0, 1, 72, 0}";
 }
 );
 layerId = UUID0;
@@ -9685,7 +9688,7 @@ name = idotless;
 },
 {
 name = tildecomb;
-transform = "{1, 0, 0, 1, -47, 0}";
+transform = "{1, 0, 0, 1, -77, 0}";
 }
 );
 layerId = UUID0;
@@ -12605,7 +12608,7 @@ name = u;
 },
 {
 name = gravecomb;
-transform = "{1, 0, 0, 1, 159, -24}";
+transform = "{1, 0, 0, 1, 93, 0}";
 }
 );
 layerId = UUID0;
@@ -12618,7 +12621,7 @@ name = u;
 },
 {
 name = gravecomb;
-transform = "{1, 0, 0, 1, 173, -24}";
+transform = "{1, 0, 0, 1, 92, 0}";
 }
 );
 layerId = "F7C9FF73-DC1F-4AC6-B1F4-3E0815F912B2";
