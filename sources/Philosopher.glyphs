@@ -37,6 +37,10 @@ value = 1;
 {
 name = "Use Line Breaks";
 value = 1;
+},
+{
+name = vendorID;
+value = PfEd;
 }
 );
 date = "2016-10-15 00:54:35 +0000";
