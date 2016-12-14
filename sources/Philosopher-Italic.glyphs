@@ -7,7 +7,7 @@ code = "A Aacute Acircumflex Adieresis Agrave Aring Atilde AE B C Ccedilla D Eth
 name = Uppercase;
 }
 );
-copyright = "Copyright 2011 The Philosopher Project Authors (a@cyreal.org)";
+copyright = "Copyright 2011 The Philosopher Project Authors (lemonad@jovanny.ru)";
 customParameters = (
 {
 name = trademark;
