@@ -6,7 +6,7 @@ DisplayStrings = (
 "AÁ/Abreve/Abreveacute/Abrevedotbelow/Abrevegrave/Abrevehookabove/brevecomb_tildecomb/Abrevetilde Â/Acircumflexacute/Acircumflexdotbelow/Acircumflexgrave/Acircumflexhookabove/Acircumflextilde Ä/Adotbelow À/Ahookabove ÅÃÆBCÇDÐ/Dcroat EÉÊ/Ecircumflexacute/Ecircumflexdotbelow/Ecircumflexgrave/Ecircumflexhookabove/Ecircumflextilde Ë/Edotbelow È/Ehookabove/Etilde FG/Gbreve HIÍÎÏ/Idotaccent/Idotbelow Ì/Ihookabove/Itilde JKLMNÑOÓÔ/Ocircumflexacute/Ocircumflexdotbelow/Ocircumflexgrave/Ocircumflexhookabove/Ocircumflextilde Ö/Odotbelow Ò/Ohookabove/Ohorn/Ohornacute/Ohorndotbelow/Ohorngrave/Ohornhookabove/Ohorntilde ØÕ/OE PÞQRS/Scaron/Scedilla TUÚÛÜ/Udotbelow Ù/Uhookabove/Uhorn/Uhornacute/Uhorndotbelow/Uhorngrave/Uhornhookabove/Uhorntilde/Utilde VWXYÝ/Ydieresis/Ydotbelow/Ygrave/Yhookabove/Ytilde Z/Zcaron aá/abreve/abreveacute/abrevedotbelow/abrevegrave/abrevehookabove/abrevetilde â/acircumflexacute/acircumflexdotbelow/acircumflexgrave/acircumflexhookabove/acircumflextilde ä/adotbelow à/ahookabove åãæbcçdð/dcroat eéê/ecircumflexacute/ecircumflexdotbelow/ecircumflexgrave/ecircumflexhookabove/ecircumflextilde ë/edotbelow è/ehookabove/etilde fg/gbreve hi/idotless íîï/idotbelow ì/ihookabove/itilde jklmnñoóô/ocircumflexacute/ocircumflexdotbelow/ocircumflexgrave/ocircumflexhookabove/ocircumflextilde ö/odotbelow ò/ohookabove/ohorn/ohornacute/ohorndotbelow/ohorngrave/ohornhookabove/ohorntilde øõ/oe pþqrs/scaron/scedilla ßtuúûü/udotbelow ù/uhookabove/uhorn/uhornacute/uhorndotbelow/uhorngrave/uhornhookabove/uhorntilde/utilde vwxyý/ydieresis/ydotbelow/ygrave/yhookabove/ytilde z/zcaron ªº/florin",
 "î",
 R,
-"/Scedilla/space/scedilla/space/Gbreve/space/gbreve/space ./Idotaccent/space ./dotbelowcomb/dotbelowcomb/Odotbelow"
+"/Scedilla/space/scedilla/space/Gbreve/space/gbreve/space/Idotaccent/space"
 );
 classes = (
 {
@@ -60,7 +60,7 @@ Tag = wght;
 );
 }
 );
-date = "2024-06-07 08:28:43 +0000";
+date = "2024-06-07 08:43:11 +0000";
 designer = "Jovanny Lemonad";
 designerURL = "http://www.jovanny.ru/";
 familyName = Philosopher;
@@ -9969,7 +9969,7 @@ position = "{265, 235}";
 },
 {
 name = ogonek;
-position = "{477, 10}";
+position = "{357, 10}";
 },
 {
 name = top;
@@ -9977,7 +9977,7 @@ position = "{265, 470}";
 },
 {
 name = topright;
-position = "{510, 470}";
+position = "{406, 470}";
 }
 );
 layerId = UUID0;
@@ -10031,7 +10031,7 @@ position = "{276, 235}";
 },
 {
 name = ogonek;
-position = "{497, 10}";
+position = "{377, 10}";
 },
 {
 name = top;
@@ -10039,7 +10039,7 @@ position = "{276, 470}";
 },
 {
 name = topright;
-position = "{532, 470}";
+position = "{443, 470}";
 }
 );
 background = {
@@ -10521,7 +10521,7 @@ name = o;
 },
 {
 name = horncomb;
-transform = "{1, 0, 0, 1, 387, 0}";
+transform = "{1, 0, 0, 1, 283, 0}";
 }
 );
 layerId = UUID0;
@@ -10534,7 +10534,7 @@ name = o;
 },
 {
 name = horncomb;
-transform = "{1, 0, 0, 1, 392, 0}";
+transform = "{1, 0, 0, 1, 303, 0}";
 }
 );
 layerId = "C3EC177B-A859-46F4-B872-3D98CC06F87A";
