@@ -3,7 +3,10 @@
 DisplayStrings = (
 "ÁÁÁÁÂÂÂÂÄÄÄÄÃÃÃÃÉÉÉÉÊÊÊÊËËËË/Gbreve/Gbreve ÍÍÍÍÎÎÎÎÑÑÑÑÓÓÓÓÔÔÔÔÖÖÖÖÕÕÕÕ/Scaron/Scaron/Scaron/Scaron ÚÚÚÚÛÛÛÛÜÜÜÜÝÝÝÝ/Ydieresis/Ydieresis/Ydieresis/Ydieresis/Zcaron/Zcaron/Zcaron/Zcaron ááââååååãããã/dcroat/dcroat ééêê/gbreve/gbreve ííîîññññóóôôõõõõ/scaron/scaron/scaron/scaron úúûûýý/ydieresis/zcaron/zcaron/zcaron/zcaron/Gje-cy/Gje-cy/Io-cy/Io-cy/Io-cy/Io-cy/Iishort-cy/Iishort-cy/Kje-cy/Kje-cy/iishort-cy/iishort-cy/iishort-cy/iishort-cy/ushort-cy/ushort-cy/ushort-cy/ushort-cy/fita-cy/caroncomb/caroncomb/caroncomb/caroncomb/brevecomb/brevecomb/brevecomb/brevecomb/ringcomb/ringcomb/ringcomb/ringcomb/tildecomb/tildecomb/tildecomb/tildecomb/cedillacomb/cedillacomb/cedillacomb/cedillacomb/brevecomb-cy/brevecomb-cy/brevecomb-cy/brevecomb-cy/brevecomb-cy.case/brevecomb-cy.case/brevecomb-cy.case/brevecomb-cy.case",
 "/space aäÄ,ÜÖ/space oö,/space u/dieresiscomb/acutecomb ü",
-"AÁ/Abreve/Abreveacute/Abrevedotbelow/Abrevegrave/Abrevehookabove/brevecomb_tildecomb/Abrevetilde Â/Acircumflexacute/Acircumflexdotbelow/Acircumflexgrave/Acircumflexhookabove/Acircumflextilde Ä/Adotbelow À/Ahookabove ÅÃÆBCÇDÐ/Dcroat EÉÊ/Ecircumflexacute/Ecircumflexdotbelow/Ecircumflexgrave/Ecircumflexhookabove/Ecircumflextilde Ë/Edotbelow È/Ehookabove/Etilde FG/Gbreve HIÍÎÏ/Idotaccent/Idotbelow Ì/Ihookabove/Itilde JKLMNÑOÓÔ/Ocircumflexacute/Ocircumflexdotbelow/Ocircumflexgrave/Ocircumflexhookabove/Ocircumflextilde Ö/Odotbelow Ò/Ohookabove/Ohorn/Ohornacute/Ohorndotbelow/Ohorngrave/Ohornhookabove/Ohorntilde ØÕ/OE PÞQRS/Scaron/Scedilla TUÚÛÜ/Udotbelow Ù/Uhookabove/Uhorn/Uhornacute/Uhorndotbelow/Uhorngrave/Uhornhookabove/Uhorntilde/Utilde VWXYÝ/Ydieresis/Ydotbelow/Ygrave/Yhookabove/Ytilde Z/Zcaron aá/abreve/abreveacute/abrevedotbelow/abrevegrave/abrevehookabove/abrevetilde â/acircumflexacute/acircumflexdotbelow/acircumflexgrave/acircumflexhookabove/acircumflextilde ä/adotbelow à/ahookabove åãæbcçdð/dcroat eéê/ecircumflexacute/ecircumflexdotbelow/ecircumflexgrave/ecircumflexhookabove/ecircumflextilde ë/edotbelow è/ehookabove/etilde fg/gbreve hi/idotless íîï/idotbelow ì/ihookabove/itilde jklmnñoóô/ocircumflexacute/ocircumflexdotbelow/ocircumflexgrave/ocircumflexhookabove/ocircumflextilde ö/odotbelow ò/ohookabove/ohorn/ohornacute/ohorndotbelow/ohorngrave/ohornhookabove/ohorntilde øõ/oe pþqrs/scaron/scedilla ßtuúûü/udotbelow ù/uhookabove/uhorn/uhornacute/uhorndotbelow/uhorngrave/uhornhookabove/uhorntilde/utilde vwxyý/ydieresis/ydotbelow/ygrave/yhookabove/ytilde z/zcaron ªº/florin"
+"AÁ/Abreve/Abreveacute/Abrevedotbelow/Abrevegrave/Abrevehookabove/brevecomb_tildecomb/Abrevetilde Â/Acircumflexacute/Acircumflexdotbelow/Acircumflexgrave/Acircumflexhookabove/Acircumflextilde Ä/Adotbelow À/Ahookabove ÅÃÆBCÇDÐ/Dcroat EÉÊ/Ecircumflexacute/Ecircumflexdotbelow/Ecircumflexgrave/Ecircumflexhookabove/Ecircumflextilde Ë/Edotbelow È/Ehookabove/Etilde FG/Gbreve HIÍÎÏ/Idotaccent/Idotbelow Ì/Ihookabove/Itilde JKLMNÑOÓÔ/Ocircumflexacute/Ocircumflexdotbelow/Ocircumflexgrave/Ocircumflexhookabove/Ocircumflextilde Ö/Odotbelow Ò/Ohookabove/Ohorn/Ohornacute/Ohorndotbelow/Ohorngrave/Ohornhookabove/Ohorntilde ØÕ/OE PÞQRS/Scaron/Scedilla TUÚÛÜ/Udotbelow Ù/Uhookabove/Uhorn/Uhornacute/Uhorndotbelow/Uhorngrave/Uhornhookabove/Uhorntilde/Utilde VWXYÝ/Ydieresis/Ydotbelow/Ygrave/Yhookabove/Ytilde Z/Zcaron aá/abreve/abreveacute/abrevedotbelow/abrevegrave/abrevehookabove/abrevetilde â/acircumflexacute/acircumflexdotbelow/acircumflexgrave/acircumflexhookabove/acircumflextilde ä/adotbelow à/ahookabove åãæbcçdð/dcroat eéê/ecircumflexacute/ecircumflexdotbelow/ecircumflexgrave/ecircumflexhookabove/ecircumflextilde ë/edotbelow è/ehookabove/etilde fg/gbreve hi/idotless íîï/idotbelow ì/ihookabove/itilde jklmnñoóô/ocircumflexacute/ocircumflexdotbelow/ocircumflexgrave/ocircumflexhookabove/ocircumflextilde ö/odotbelow ò/ohookabove/ohorn/ohornacute/ohorndotbelow/ohorngrave/ohornhookabove/ohorntilde øõ/oe pþqrs/scaron/scedilla ßtuúûü/udotbelow ù/uhookabove/uhorn/uhornacute/uhorndotbelow/uhorngrave/uhornhookabove/uhorntilde/utilde vwxyý/ydieresis/ydotbelow/ygrave/yhookabove/ytilde z/zcaron ªº/florin",
+"î",
+R,
+"/Scedilla/space/scedilla/space/Gbreve/space/gbreve/space ./Idotaccent/space ./dotbelowcomb/dotbelowcomb/Odotbelow"
 );
 classes = (
 {
@@ -2855,7 +2858,7 @@ unicode = 00CF;
 glyphname = Idotaccent;
 layers = (
 {
-layerId = UUID0;
+background = {
 paths = (
 {
 closed = 1;
@@ -2892,10 +2895,54 @@ nodes = (
 );
 }
 );
+};
+guideLines = (
+{
+angle = 90;
+position = "{134, 660}";
+}
+);
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"269 0 LINE",
+"269 20 LINE",
+"249 20 LINE SMOOTH",
+"189 20 OFFCURVE",
+"179 60 OFFCURVE",
+"179 120 CURVE SMOOTH",
+"179 660 LINE",
+"89 660 LINE",
+"89 120 LINE",
+"89 20 OFFCURVE",
+"109 0 OFFCURVE",
+"179 0 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"162 710 OFFCURVE",
+"187 734 OFFCURVE",
+"187 765 CURVE SMOOTH",
+"187 794 OFFCURVE",
+"164 819 OFFCURVE",
+"133 819 CURVE SMOOTH",
+"104 819 OFFCURVE",
+"79 794 OFFCURVE",
+"79 765 CURVE SMOOTH",
+"79 734 OFFCURVE",
+"104 710 OFFCURVE",
+"133 710 CURVE SMOOTH"
+);
+}
+);
 width = 285;
 },
 {
-layerId = "C3EC177B-A859-46F4-B872-3D98CC06F87A";
+background = {
 paths = (
 {
 closed = 1;
@@ -2929,6 +2976,50 @@ nodes = (
 "74 750 OFFCURVE",
 "98 714 OFFCURVE",
 "149 714 CURVE SMOOTH"
+);
+}
+);
+};
+guideLines = (
+{
+angle = 90;
+position = "{144, 660}";
+}
+);
+layerId = "C3EC177B-A859-46F4-B872-3D98CC06F87A";
+paths = (
+{
+closed = 1;
+nodes = (
+"289 0 LINE",
+"289 30 LINE",
+"279 30 LINE SMOOTH",
+"219 30 OFFCURVE",
+"209 70 OFFCURVE",
+"209 130 CURVE SMOOTH",
+"209 660 LINE",
+"79 660 LINE",
+"79 130 LINE",
+"79 29 OFFCURVE",
+"99 0 OFFCURVE",
+"169 0 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"183 718 OFFCURVE",
+"205 743 OFFCURVE",
+"205 779 CURVE SMOOTH",
+"205 815 OFFCURVE",
+"183 840 OFFCURVE",
+"144 840 CURVE SMOOTH",
+"105 840 OFFCURVE",
+"83 815 OFFCURVE",
+"83 779 CURVE SMOOTH",
+"83 743 OFFCURVE",
+"105 718 OFFCURVE",
+"144 718 CURVE SMOOTH"
 );
 }
 );
@@ -9075,7 +9166,7 @@ name = idotless;
 },
 {
 name = circumflexcomb;
-transform = "{1, 0, 0, 1, -3, 0}";
+transform = "{1, 0, 0, 1, -138, 0}";
 }
 );
 layerId = UUID0;
@@ -9090,7 +9181,7 @@ name = idotless;
 {
 alignment = -1;
 name = circumflex;
-transform = "{1, 0, 0, 1, -30, -128}";
+transform = "{1, 0, 0, 1, -49, -128}";
 }
 );
 layerId = "C3EC177B-A859-46F4-B872-3D98CC06F87A";
