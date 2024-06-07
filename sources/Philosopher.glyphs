@@ -1,5 +1,10 @@
 {
-.appVersion = "948";
+.appVersion = "3309";
+DisplayStrings = (
+"ÁÁÁÁÂÂÂÂÄÄÄÄÃÃÃÃÉÉÉÉÊÊÊÊËËËË/Gbreve/Gbreve ÍÍÍÍÎÎÎÎÑÑÑÑÓÓÓÓÔÔÔÔÖÖÖÖÕÕÕÕ/Scaron/Scaron/Scaron/Scaron ÚÚÚÚÛÛÛÛÜÜÜÜÝÝÝÝ/Ydieresis/Ydieresis/Ydieresis/Ydieresis/Zcaron/Zcaron/Zcaron/Zcaron ááââååååãããã/dcroat/dcroat ééêê/gbreve/gbreve ííîîññññóóôôõõõõ/scaron/scaron/scaron/scaron úúûûýý/ydieresis/zcaron/zcaron/zcaron/zcaron/Gje-cy/Gje-cy/Io-cy/Io-cy/Io-cy/Io-cy/Iishort-cy/Iishort-cy/Kje-cy/Kje-cy/iishort-cy/iishort-cy/iishort-cy/iishort-cy/ushort-cy/ushort-cy/ushort-cy/ushort-cy/fita-cy/caroncomb/caroncomb/caroncomb/caroncomb/brevecomb/brevecomb/brevecomb/brevecomb/ringcomb/ringcomb/ringcomb/ringcomb/tildecomb/tildecomb/tildecomb/tildecomb/cedillacomb/cedillacomb/cedillacomb/cedillacomb/brevecomb-cy/brevecomb-cy/brevecomb-cy/brevecomb-cy/brevecomb-cy.case/brevecomb-cy.case/brevecomb-cy.case/brevecomb-cy.case",
+"/space aäÄ,ÜÖ/space oö,/space u/dieresiscomb/acutecomb ü",
+"AÁ/Abreve/Abreveacute/Abrevedotbelow/Abrevegrave/Abrevehookabove/brevecomb_tildecomb/Abrevetilde Â/Acircumflexacute/Acircumflexdotbelow/Acircumflexgrave/Acircumflexhookabove/Acircumflextilde Ä/Adotbelow À/Ahookabove ÅÃÆBCÇDÐ/Dcroat EÉÊ/Ecircumflexacute/Ecircumflexdotbelow/Ecircumflexgrave/Ecircumflexhookabove/Ecircumflextilde Ë/Edotbelow È/Ehookabove/Etilde FG/Gbreve HIÍÎÏ/Idotaccent/Idotbelow Ì/Ihookabove/Itilde JKLMNÑOÓÔ/Ocircumflexacute/Ocircumflexdotbelow/Ocircumflexgrave/Ocircumflexhookabove/Ocircumflextilde Ö/Odotbelow Ò/Ohookabove/Ohorn/Ohornacute/Ohorndotbelow/Ohorngrave/Ohornhookabove/Ohorntilde ØÕ/OE PÞQRS/Scaron/Scedilla TUÚÛÜ/Udotbelow Ù/Uhookabove/Uhorn/Uhornacute/Uhorndotbelow/Uhorngrave/Uhornhookabove/Uhorntilde/Utilde VWXYÝ/Ydieresis/Ydotbelow/Ygrave/Yhookabove/Ytilde Z/Zcaron aá/abreve/abreveacute/abrevedotbelow/abrevegrave/abrevehookabove/abrevetilde â/acircumflexacute/acircumflexdotbelow/acircumflexgrave/acircumflexhookabove/acircumflextilde ä/adotbelow à/ahookabove åãæbcçdð/dcroat eéê/ecircumflexacute/ecircumflexdotbelow/ecircumflexgrave/ecircumflexhookabove/ecircumflextilde ë/edotbelow è/ehookabove/etilde fg/gbreve hi/idotless íîï/idotbelow ì/ihookabove/itilde jklmnñoóô/ocircumflexacute/ocircumflexdotbelow/ocircumflexgrave/ocircumflexhookabove/ocircumflextilde ö/odotbelow ò/ohookabove/ohorn/ohornacute/ohorndotbelow/ohorngrave/ohornhookabove/ohorntilde øõ/oe pþqrs/scaron/scedilla ßtuúûü/udotbelow ù/uhookabove/uhorn/uhornacute/uhorndotbelow/uhorngrave/uhornhookabove/uhorntilde/utilde vwxyý/ydieresis/ydotbelow/ygrave/yhookabove/ytilde z/zcaron ªº/florin"
+);
 classes = (
 {
 automatic = 1;
@@ -10,20 +15,8 @@ name = Uppercase;
 copyright = "Copyright 2011 The Philosopher Project Authors (lemonad@jovanny.ru)";
 customParameters = (
 {
-name = trademark;
-value = "Philosopher is a trademark of Jovanny Lemonad.";
-},
-{
 name = "Use Typo Metrics";
 value = 1;
-},
-{
-name = license;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
-},
-{
-name = licenseURL;
-value = "http://scripts.sil.org/OFL";
 },
 {
 name = fsType;
@@ -39,11 +32,32 @@ name = "Use Line Breaks";
 value = 1;
 },
 {
+name = license;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
+},
+{
+name = licenseURL;
+value = "http://scripts.sil.org/OFL";
+},
+{
+name = trademark;
+value = "Philosopher is a trademark of Jovanny Lemonad.";
+},
+{
 name = vendorID;
 value = PfEd;
+},
+{
+name = Axes;
+value = (
+{
+Name = Weight;
+Tag = wght;
 }
 );
-date = "2016-10-15 00:54:35 +0000";
+}
+);
+date = "2024-06-07 08:28:43 +0000";
 designer = "Jovanny Lemonad";
 designerURL = "http://www.jovanny.ru/";
 familyName = Philosopher;
@@ -318,9 +332,11 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = A;
 },
 {
+alignment = -1;
 name = acute;
 transform = "{1, 0, 0, 1, 282, 0}";
 }
@@ -331,9 +347,11 @@ width = 635;
 {
 components = (
 {
+alignment = -1;
 name = A;
 },
 {
+alignment = -1;
 name = acute;
 transform = "{1, 0, 0, 1, 281, 0}";
 }
@@ -558,9 +576,11 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = A;
 },
 {
+alignment = -1;
 name = circumflex;
 transform = "{1, 0, 0, 1, 162, 25}";
 }
@@ -571,9 +591,11 @@ width = 635;
 {
 components = (
 {
+alignment = -1;
 name = A;
 },
 {
+alignment = -1;
 name = circumflex;
 transform = "{1, 0, 0, 1, 158, 25}";
 }
@@ -765,9 +787,11 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = A;
 },
 {
+alignment = -1;
 name = dieresis;
 transform = "{1, 0, 0, 1, 162, 0}";
 }
@@ -778,9 +802,11 @@ width = 635;
 {
 components = (
 {
+alignment = -1;
 name = A;
 },
 {
+alignment = -1;
 name = dieresis;
 transform = "{1, 0, 0, 1, 183, 0}";
 }
@@ -1037,9 +1063,11 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = A;
 },
 {
+alignment = -1;
 name = tilde;
 transform = "{1, 0, 0, 1, 189, 20}";
 }
@@ -1050,9 +1078,11 @@ width = 635;
 {
 components = (
 {
+alignment = -1;
 name = A;
 },
 {
+alignment = -1;
 name = tilde;
 transform = "{1, 0, 0, 1, 190, 20}";
 }
@@ -1856,9 +1886,11 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = E;
 },
 {
+alignment = -1;
 name = acute;
 transform = "{1, 0, 0, 1, 256, 0}";
 }
@@ -1869,9 +1901,11 @@ width = 590;
 {
 components = (
 {
+alignment = -1;
 name = E;
 },
 {
+alignment = -1;
 name = acute;
 transform = "{1, 0, 0, 1, 260, 0}";
 }
@@ -1890,9 +1924,11 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = E;
 },
 {
+alignment = -1;
 name = circumflex;
 transform = "{1, 0, 0, 1, 146, 61}";
 }
@@ -1903,9 +1939,11 @@ width = 590;
 {
 components = (
 {
+alignment = -1;
 name = E;
 },
 {
+alignment = -1;
 name = circumflex;
 transform = "{1, 0, 0, 1, 140, 62}";
 }
@@ -2097,9 +2135,11 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = E;
 },
 {
+alignment = -1;
 name = dieresis;
 transform = "{1, 0, 0, 1, 136, 40}";
 }
@@ -2110,9 +2150,11 @@ width = 590;
 {
 components = (
 {
+alignment = -1;
 name = E;
 },
 {
+alignment = -1;
 name = dieresis.alt2;
 transform = "{1, 0, 0, 1, 136, 0}";
 }
@@ -2454,9 +2496,11 @@ width = 720;
 {
 components = (
 {
+alignment = -1;
 name = G;
 },
 {
+alignment = -1;
 name = breve;
 transform = "{1, 0, 0, 1, 216, 220}";
 }
@@ -2615,9 +2659,11 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = I;
 },
 {
+alignment = -1;
 name = acute;
 transform = "{1, 0, 0, 1, 89, 0}";
 }
@@ -2628,9 +2674,11 @@ width = 285;
 {
 components = (
 {
+alignment = -1;
 name = I;
 },
 {
+alignment = -1;
 name = acute;
 transform = "{1, 0, 0, 1, 91, 0}";
 }
@@ -2649,9 +2697,11 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = I;
 },
 {
+alignment = -1;
 name = circumflex;
 transform = "{1, 0, 0, 1, -20, 35}";
 }
@@ -2662,9 +2712,11 @@ width = 285;
 {
 components = (
 {
+alignment = -1;
 name = I;
 },
 {
+alignment = -1;
 name = circumflex;
 transform = "{1, 0, 0, 1, -20, 35}";
 }
@@ -3362,9 +3414,11 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = N;
 },
 {
+alignment = -1;
 name = tilde;
 transform = "{1, 0, 0, 1, 217, 14}";
 }
@@ -3375,9 +3429,11 @@ width = 685;
 {
 components = (
 {
+alignment = -1;
 name = N;
 },
 {
+alignment = -1;
 name = tilde;
 transform = "{1, 0, 0, 1, 215, 14}";
 }
@@ -3484,9 +3540,11 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = O;
 },
 {
+alignment = -1;
 name = acute;
 transform = "{1, 0, 0, 1, 315, 20}";
 }
@@ -3497,9 +3555,11 @@ width = 712;
 {
 components = (
 {
+alignment = -1;
 name = O;
 },
 {
+alignment = -1;
 name = acute;
 transform = "{1, 0, 0, 1, 318, 24}";
 }
@@ -3518,9 +3578,11 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = O;
 },
 {
+alignment = -1;
 name = circumflex;
 transform = "{1, 0, 0, 1, 196, 60}";
 }
@@ -3531,9 +3593,11 @@ width = 712;
 {
 components = (
 {
+alignment = -1;
 name = O;
 },
 {
+alignment = -1;
 name = circumflex;
 transform = "{1, 0, 0, 1, 198, 71}";
 }
@@ -3725,9 +3789,11 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = O;
 },
 {
+alignment = -1;
 name = dieresis;
 transform = "{1, 0, 0, 1, 201, 45}";
 }
@@ -3738,9 +3804,11 @@ width = 712;
 {
 components = (
 {
+alignment = -1;
 name = O;
 },
 {
+alignment = -1;
 name = dieresis.alt2;
 transform = "{1, 0, 0, 1, 201, 5}";
 }
@@ -4195,9 +4263,11 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = O;
 },
 {
+alignment = -1;
 name = tilde;
 transform = "{1, 0, 0, 1, 222, 58}";
 }
@@ -4208,9 +4278,11 @@ width = 712;
 {
 components = (
 {
+alignment = -1;
 name = O;
 },
 {
+alignment = -1;
 name = tilde;
 transform = "{1, 0, 0, 1, 229, 58}";
 }
@@ -4892,9 +4964,11 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = S;
 },
 {
+alignment = -1;
 name = caron;
 transform = "{1, 0, 0, 1, 119, 200}";
 }
@@ -4905,9 +4979,11 @@ width = 533;
 {
 components = (
 {
+alignment = -1;
 name = S;
 },
 {
+alignment = -1;
 name = caron;
 transform = "{1, 0, 0, 1, 102, 201}";
 }
@@ -5216,9 +5292,11 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = U;
 },
 {
+alignment = -1;
 name = acute;
 transform = "{1, 0, 0, 1, 309, -19}";
 }
@@ -5229,9 +5307,11 @@ width = 687;
 {
 components = (
 {
+alignment = -1;
 name = U;
 },
 {
+alignment = -1;
 name = acute;
 transform = "{1, 0, 0, 1, 317, -19}";
 }
@@ -5250,9 +5330,11 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = U;
 },
 {
+alignment = -1;
 name = circumflex;
 transform = "{1, 0, 0, 1, 219, 11}";
 }
@@ -5263,9 +5345,11 @@ width = 687;
 {
 components = (
 {
+alignment = -1;
 name = U;
 },
 {
+alignment = -1;
 name = circumflex;
 transform = "{1, 0, 0, 1, 223, 21}";
 }
@@ -5284,9 +5368,11 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = U;
 },
 {
+alignment = -1;
 name = dieresis;
 transform = "{1, 0, 0, 1, 214, -9}";
 }
@@ -5297,9 +5383,11 @@ width = 687;
 {
 components = (
 {
+alignment = -1;
 name = U;
 },
 {
+alignment = -1;
 name = dieresis.alt2;
 transform = "{1, 0, 0, 1, 217, -49}";
 }
@@ -5945,9 +6033,11 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = Y;
 },
 {
+alignment = -1;
 name = acute;
 transform = "{1, 0, 0, 1, 295, -29}";
 }
@@ -5958,9 +6048,11 @@ width = 628;
 {
 components = (
 {
+alignment = -1;
 name = Y;
 },
 {
+alignment = -1;
 name = acute;
 transform = "{1, 0, 0, 1, 298, -30}";
 }
@@ -5979,9 +6071,11 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = Y;
 },
 {
+alignment = -1;
 name = dieresis;
 transform = "{1, 0, 0, 1, 195, 0}";
 }
@@ -5992,9 +6086,11 @@ width = 628;
 {
 components = (
 {
+alignment = -1;
 name = Y;
 },
 {
+alignment = -1;
 name = dieresis;
 transform = "{1, 0, 0, 1, 216, 0}";
 }
@@ -6207,9 +6303,11 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = Z;
 },
 {
+alignment = -1;
 name = caron;
 transform = "{1, 0, 0, 1, 173, 190}";
 }
@@ -6220,9 +6318,11 @@ width = 591;
 {
 components = (
 {
+alignment = -1;
 name = Z;
 },
 {
+alignment = -1;
 name = caron;
 transform = "{1, 0, 0, 1, 150, 191}";
 }
@@ -6239,6 +6339,20 @@ unicode = 017D;
 glyphname = a;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{241, 0}";
+},
+{
+name = ogonek;
+position = "{433, 10}";
+},
+{
+name = top;
+position = "{241, 470}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -6296,6 +6410,20 @@ nodes = (
 width = 481;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{248, 0}";
+},
+{
+name = ogonek;
+position = "{446, 10}";
+},
+{
+name = top;
+position = "{248, 470}";
+}
+);
 layerId = "C3EC177B-A859-46F4-B872-3D98CC06F87A";
 paths = (
 {
@@ -6382,9 +6510,11 @@ width = 481;
 {
 components = (
 {
+alignment = -1;
 name = a;
 },
 {
+alignment = -1;
 name = acute;
 transform = "{1, 0, 0, 1, 181, -174}";
 }
@@ -6622,9 +6752,11 @@ width = 481;
 {
 components = (
 {
+alignment = -1;
 name = a;
 },
 {
+alignment = -1;
 name = circumflex;
 transform = "{1, 0, 0, 1, 85, -129}";
 }
@@ -6820,7 +6952,7 @@ name = a;
 },
 {
 name = dieresiscomb;
-transform = "{1, 0, 0, 1, 109, 0}";
+transform = "{1, 0, 0, 1, 11, -10}";
 }
 );
 layerId = UUID0;
@@ -6833,7 +6965,7 @@ name = a;
 },
 {
 name = dieresiscomb;
-transform = "{1, 0, 0, 1, 83, 0}";
+transform = "{1, 0, 0, 1, 2, -10}";
 }
 );
 layerId = "C3EC177B-A859-46F4-B872-3D98CC06F87A";
@@ -6950,9 +7082,11 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = a;
 },
 {
+alignment = -1;
 name = ring;
 transform = "{1, 0, 0, 1, 149, 0}";
 }
@@ -6963,9 +7097,11 @@ width = 481;
 {
 components = (
 {
+alignment = -1;
 name = a;
 },
 {
+alignment = -1;
 name = ring;
 transform = "{1, 0, 0, 1, 128, 0}";
 }
@@ -6984,9 +7120,11 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = a;
 },
 {
+alignment = -1;
 name = tilde;
 transform = "{1, 0, 0, 1, 103, -144}";
 }
@@ -6997,9 +7135,11 @@ width = 481;
 {
 components = (
 {
+alignment = -1;
 name = a;
 },
 {
+alignment = -1;
 name = tilde;
 transform = "{1, 0, 0, 1, 108, -144}";
 }
@@ -7829,7 +7969,7 @@ transform = "{1, 0, 0, 1, 113, 291}";
 }
 );
 layerId = UUID0;
-width = 523;
+width = 524;
 },
 {
 components = (
@@ -7842,7 +7982,7 @@ transform = "{1, 0, 0, 1, 123, 296}";
 }
 );
 layerId = "C3EC177B-A859-46F4-B872-3D98CC06F87A";
-width = 552;
+width = 547;
 }
 );
 unicode = 0111;
@@ -7965,9 +8105,11 @@ width = 488;
 {
 components = (
 {
+alignment = -1;
 name = e;
 },
 {
+alignment = -1;
 name = acute;
 transform = "{1, 0, 0, 1, 199, -175}";
 }
@@ -7999,9 +8141,11 @@ width = 488;
 {
 components = (
 {
+alignment = -1;
 name = e;
 },
 {
+alignment = -1;
 name = circumflex;
 transform = "{1, 0, 0, 1, 87, -134}";
 }
@@ -8634,9 +8778,11 @@ width = 492;
 {
 components = (
 {
+alignment = -1;
 name = g;
 },
 {
+alignment = -1;
 name = breve;
 transform = "{1, 0, 0, 1, 99, 20}";
 }
@@ -8902,9 +9048,11 @@ width = 246;
 {
 components = (
 {
+alignment = -1;
 name = idotless;
 },
 {
+alignment = -1;
 name = acute;
 transform = "{1, 0, 0, 1, 75, -175}";
 }
@@ -8936,9 +9084,11 @@ width = 246;
 {
 components = (
 {
+alignment = -1;
 name = idotless;
 },
 {
+alignment = -1;
 name = circumflex;
 transform = "{1, 0, 0, 1, -30, -128}";
 }
@@ -9681,9 +9831,11 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = n;
 },
 {
+alignment = -1;
 name = tilde;
 transform = "{1, 0, 0, 1, 149, -135}";
 }
@@ -9694,9 +9846,11 @@ width = 544;
 {
 components = (
 {
+alignment = -1;
 name = n;
 },
 {
+alignment = -1;
 name = tilde;
 transform = "{1, 0, 0, 1, 157, -135}";
 }
@@ -9713,6 +9867,28 @@ unicode = 00F1;
 glyphname = o;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{265, 0}";
+},
+{
+name = center;
+position = "{265, 235}";
+},
+{
+name = ogonek;
+position = "{477, 10}";
+},
+{
+name = top;
+position = "{265, 470}";
+},
+{
+name = topright;
+position = "{510, 470}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -9753,6 +9929,28 @@ nodes = (
 width = 530;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{276, 0}";
+},
+{
+name = center;
+position = "{276, 235}";
+},
+{
+name = ogonek;
+position = "{497, 10}";
+},
+{
+name = top;
+position = "{276, 470}";
+},
+{
+name = topright;
+position = "{532, 470}";
+}
+);
 background = {
 paths = (
 {
@@ -9861,9 +10059,11 @@ width = 530;
 {
 components = (
 {
+alignment = -1;
 name = o;
 },
 {
+alignment = -1;
 name = acute;
 transform = "{1, 0, 0, 1, 213, -175}";
 }
@@ -9895,9 +10095,11 @@ width = 530;
 {
 components = (
 {
+alignment = -1;
 name = o;
 },
 {
+alignment = -1;
 name = circumflex;
 transform = "{1, 0, 0, 1, 111, -135}";
 }
@@ -10093,7 +10295,7 @@ name = o;
 },
 {
 name = dieresiscomb;
-transform = "{1, 0, 0, 1, 135, 0}";
+transform = "{1, 0, 0, 1, 35, -10}";
 }
 );
 layerId = UUID0;
@@ -10106,7 +10308,7 @@ name = o;
 },
 {
 name = dieresiscomb;
-transform = "{1, 0, 0, 1, 110, 0}";
+transform = "{1, 0, 0, 1, 30, -10}";
 }
 );
 layerId = "C3EC177B-A859-46F4-B872-3D98CC06F87A";
@@ -10228,7 +10430,7 @@ name = o;
 },
 {
 name = horncomb;
-transform = "{1, 0, 0, 1, 275, 0}";
+transform = "{1, 0, 0, 1, 387, 0}";
 }
 );
 layerId = UUID0;
@@ -10241,7 +10443,7 @@ name = o;
 },
 {
 name = horncomb;
-transform = "{1, 0, 0, 1, 287, 0}";
+transform = "{1, 0, 0, 1, 392, 0}";
 }
 );
 layerId = "C3EC177B-A859-46F4-B872-3D98CC06F87A";
@@ -10559,9 +10761,11 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = o;
 },
 {
+alignment = -1;
 name = tilde;
 transform = "{1, 0, 0, 1, 133, -144}";
 }
@@ -10572,9 +10776,11 @@ width = 530;
 {
 components = (
 {
+alignment = -1;
 name = o;
 },
 {
+alignment = -1;
 name = tilde;
 transform = "{1, 0, 0, 1, 138, -144}";
 }
@@ -11327,9 +11533,11 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = s;
 },
 {
+alignment = -1;
 name = caron;
 transform = "{1, 0, 0, 1, 79, 0}";
 }
@@ -11340,9 +11548,11 @@ width = 446;
 {
 components = (
 {
+alignment = -1;
 name = s;
 },
 {
+alignment = -1;
 name = caron;
 transform = "{1, 0, 0, 1, 57, 0}";
 }
@@ -11716,6 +11926,24 @@ unicode = 0074;
 glyphname = u;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{268, 0}";
+},
+{
+name = ogonek;
+position = "{482, 10}";
+},
+{
+name = top;
+position = "{268, 470}";
+},
+{
+name = topright;
+position = "{515, 470}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -11756,6 +11984,24 @@ nodes = (
 width = 535;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{283, 0}";
+},
+{
+name = ogonek;
+position = "{509, 10}";
+},
+{
+name = top;
+position = "{283, 470}";
+},
+{
+name = topright;
+position = "{545, 470}";
+}
+);
 layerId = "C3EC177B-A859-46F4-B872-3D98CC06F87A";
 paths = (
 {
@@ -11825,9 +12071,11 @@ width = 535;
 {
 components = (
 {
+alignment = -1;
 name = u;
 },
 {
+alignment = -1;
 name = acute;
 transform = "{1, 0, 0, 1, 225, -200}";
 }
@@ -11850,7 +12098,7 @@ name = u;
 },
 {
 name = circumflexcomb;
-transform = "{1, 0, 0, 1, 123, 0}";
+transform = "{1, 0, 0, 1, 33, -10}";
 }
 );
 layerId = UUID0;
@@ -11859,9 +12107,11 @@ width = 535;
 {
 components = (
 {
+alignment = -1;
 name = u;
 },
 {
+alignment = -1;
 name = circumflex;
 transform = "{1, 0, 0, 1, 111, -134}";
 }
@@ -11884,7 +12134,7 @@ name = u;
 },
 {
 name = dieresiscomb;
-transform = "{1, 0, 0, 1, 128, -14}";
+transform = "{1, 0, 0, 1, 38, -10}";
 }
 );
 layerId = UUID0;
@@ -11897,7 +12147,7 @@ name = u;
 },
 {
 name = dieresiscomb;
-transform = "{1, 0, 0, 1, 110, -20}";
+transform = "{1, 0, 0, 1, 37, -10}";
 }
 );
 layerId = "C3EC177B-A859-46F4-B872-3D98CC06F87A";
@@ -12563,9 +12813,11 @@ width = 514;
 {
 components = (
 {
+alignment = -1;
 name = y;
 },
 {
+alignment = -1;
 name = acute;
 transform = "{1, 0, 0, 1, 232, -200}";
 }
@@ -12605,7 +12857,7 @@ transform = "{1, 0, 0, 1, 119, -15}";
 }
 );
 layerId = "C3EC177B-A859-46F4-B872-3D98CC06F87A";
-width = 508;
+width = 509;
 }
 );
 leftKerningGroup = y;
@@ -12812,9 +13064,11 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = z;
 },
 {
+alignment = -1;
 name = caron;
 transform = "{1, 0, 0, 1, 108, 0}";
 }
@@ -12825,9 +13079,11 @@ width = 466;
 {
 components = (
 {
+alignment = -1;
 name = z;
 },
 {
+alignment = -1;
 name = caron;
 transform = "{1, 0, 0, 1, 93, 0}";
 }
@@ -13375,9 +13631,11 @@ width = 537;
 {
 components = (
 {
+alignment = -1;
 name = "Ge-cy";
 },
 {
+alignment = -1;
 name = acute;
 transform = "{1, 0, 0, 1, 209, 3}";
 }
@@ -13649,9 +13907,11 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = E;
 },
 {
+alignment = -1;
 name = dieresis;
 transform = "{1, 0, 0, 1, 135, 40}";
 }
@@ -13662,9 +13922,11 @@ width = 590;
 {
 components = (
 {
+alignment = -1;
 name = E;
 },
 {
+alignment = -1;
 name = dieresis.alt2;
 transform = "{1, 0, 0, 1, 136, 0}";
 }
@@ -14074,9 +14336,11 @@ width = 692;
 {
 components = (
 {
+alignment = -1;
 name = "Ii-cy";
 },
 {
+alignment = -1;
 name = breve;
 transform = "{1, 0, 0, 1, 203, 195}";
 }
@@ -14241,9 +14505,11 @@ width = 677;
 {
 components = (
 {
+alignment = -1;
 name = K;
 },
 {
+alignment = -1;
 name = acute;
 transform = "{1, 0, 0, 1, 267, -24}";
 }
@@ -20338,9 +20604,11 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = "ii-cy";
 },
 {
+alignment = -1;
 name = breve;
 transform = "{1, 0, 0, 1, 151, 0}";
 }
@@ -20351,9 +20619,11 @@ width = 548;
 {
 components = (
 {
+alignment = -1;
 name = "ii-cy";
 },
 {
+alignment = -1;
 name = breve;
 transform = "{1, 0, 0, 1, 124, 0}";
 }
@@ -21091,9 +21361,11 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = y;
 },
 {
+alignment = -1;
 name = breve;
 transform = "{1, 0, 0, 1, 170, -9}";
 }
@@ -21104,9 +21376,11 @@ width = 514;
 {
 components = (
 {
+alignment = -1;
 name = y;
 },
 {
+alignment = -1;
 name = breve;
 transform = "{1, 0, 0, 1, 133, -14}";
 }
@@ -23398,9 +23672,11 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = o;
 },
 {
+alignment = -1;
 name = strokeshortcomb;
 }
 );
@@ -25240,7 +25516,7 @@ name = o;
 },
 {
 name = strokeshortcomb;
-transform = "{1, 0, 0, 1, 26, -10}";
+transform = "{1, 0, 0, 1, 25, -10}";
 }
 );
 layerId = UUID0;
@@ -25261,7 +25537,7 @@ name = o;
 },
 {
 name = strokeshortcomb;
-transform = "{1, 0, 0, 1, 40, -5}";
+transform = "{1, 0, 0, 1, 26, -8}";
 }
 );
 layerId = "C3EC177B-A859-46F4-B872-3D98CC06F87A";
@@ -34288,6 +34564,7 @@ position = "{235, 635}";
 );
 components = (
 {
+alignment = -1;
 name = caron;
 transform = "{1, 0, 0, 1, 100, 0}";
 }
@@ -34308,6 +34585,7 @@ position = "{245, 645}";
 );
 components = (
 {
+alignment = -1;
 name = caron;
 transform = "{1, 0, 0, 1, 80, 0}";
 }
@@ -34335,6 +34613,7 @@ position = "{230, 616}";
 );
 components = (
 {
+alignment = -1;
 name = breve;
 transform = "{1, 0, 0, 1, 100, 0}";
 }
@@ -34355,6 +34634,7 @@ position = "{241, 625}";
 );
 components = (
 {
+alignment = -1;
 name = breve;
 transform = "{1, 0, 0, 1, 80, 0}";
 }
@@ -34382,6 +34662,7 @@ position = "{185, 700}";
 );
 components = (
 {
+alignment = -1;
 name = ring;
 transform = "{1, 0, 0, 1, 100, 0}";
 }
@@ -34402,6 +34683,7 @@ position = "{195, 710}";
 );
 components = (
 {
+alignment = -1;
 name = ring;
 transform = "{1, 0, 0, 1, 80, 0}";
 }
@@ -34429,6 +34711,7 @@ position = "{213, 635}";
 );
 components = (
 {
+alignment = -1;
 name = tilde;
 transform = "{1, 0, 0, 1, 80, -114}";
 }
@@ -34449,6 +34732,7 @@ position = "{218, 640}";
 );
 components = (
 {
+alignment = -1;
 name = tilde;
 transform = "{1, 0, 0, 1, 80, -120}";
 }
@@ -34782,6 +35066,7 @@ position = "{170, -196}";
 );
 components = (
 {
+alignment = -1;
 name = cedilla;
 transform = "{1, 0, 0, 1, 60, 0}";
 }
@@ -34802,6 +35087,7 @@ position = "{180, -206}";
 );
 components = (
 {
+alignment = -1;
 name = cedilla;
 transform = "{1, 0, 0, 1, 60, 0}";
 }
@@ -35653,6 +35939,7 @@ position = "{230, 480}";
 );
 components = (
 {
+alignment = -1;
 name = breve;
 transform = "{1, 0, 0, 1, 100, 0}";
 }
@@ -35669,6 +35956,7 @@ position = "{241, 480}";
 );
 components = (
 {
+alignment = -1;
 name = breve;
 transform = "{1, 0, 0, 1, 80, 0}";
 }
@@ -35693,6 +35981,7 @@ position = "{230, 660}";
 );
 components = (
 {
+alignment = -1;
 name = brevecomb.case;
 transform = "{1, 0, 0, 1, 100, 10}";
 }
@@ -35709,6 +35998,7 @@ position = "{364, 660}";
 );
 components = (
 {
+alignment = -1;
 name = breve;
 transform = "{1, 0, 0, 1, 203, 195}";
 }
@@ -36132,8 +36422,9 @@ components = (
 name = brevecomb;
 },
 {
+alignment = -1;
 name = tildecomb;
-transform = "{1, 0, 0, 1, 23, 145}";
+transform = "{1, 0, 0, 1, 23, 110}";
 }
 );
 layerId = "C3EC177B-A859-46F4-B872-3D98CC06F87A";
@@ -41672,7 +41963,6 @@ parenright = -21;
 };
 };
 };
-keyboardIncrement = 0;
 manufacturer = "Jovanny Lemonad";
 manufacturerURL = "http://www.jovanny.ru/";
 unitsPerEm = 1000;
@@ -41702,5 +41992,5 @@ tH = "40";
 };
 };
 versionMajor = 2;
-versionMinor = 0;
+versionMinor = 1;
 }
