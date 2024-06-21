@@ -1,0 +1,5 @@
+sources:
+  - Philosopher.glyphs
+  - Philosopher-Italic.glyphs
+familyName: Philospher
+buildVariable: false
